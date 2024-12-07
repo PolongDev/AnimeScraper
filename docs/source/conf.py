@@ -9,7 +9,7 @@
 project = 'AnimeScraper'
 copyright = '2024, Kenneth Perez'
 author = 'Kenneth Perez'
-release = "1.0.7"
+release = "1.0.8"
 version = release
 
 # -- General configuration ---------------------------------------------------
@@ -44,7 +44,7 @@ autodoc_default_options = {
 
 autodoc_member_order = "bysource"
 
-autodoc_exclude_members = ['__init__']
+#autodoc_exclude_members = ['__init__']
 
 templates_path = ['_templates']
 
@@ -52,7 +52,8 @@ exclude_patterns = [
     '_parse_anime_data.py',
     'tests/*',
     'async_malscraper.py',
-    'sync_malscraper.py'
+    'sync_malscraper.py',
+    '_cache_utils.py'
 ]
 
 
@@ -91,4 +92,3 @@ html_theme_options = {
     "sidebar_hide_name": True,
     "navigation_with_keys": True,
 }
-
