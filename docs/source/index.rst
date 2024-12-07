@@ -20,7 +20,9 @@ This project is a Python library for scraping and parsing anime data from MyAnim
 - Fetch anime details (title, synopsis, etc.)
 - Get character information (name, age, etc.)
 - Supports Fast asynchronous fetching 🚀
+- Asynchronous caching ⛁
 - Supports synchronous fetching
+- Rate Limiting
 - More features coming soon...
 
 
@@ -38,14 +40,13 @@ To install the library, use:
 
 
 Contents
----------
+~~~~~~~~
 .. toctree::
    :maxdepth: 1
 
    scrapers
    _model
    usage
-
 
 
 
